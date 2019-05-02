@@ -1,22 +1,24 @@
-# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
+*.mat
+*.xls
+*.sgr
+*.bak
+*.csv
+*.user
+*.nd
+_._
+~$*
+Backup_of*
+.idea
+.vs
+images
 bin
 obj
-
-# mstest test results
+log
+release
+packages
+coverage
+results.xml
 TestResults
-
-# user files
-**.user
-**.suo
-**.sdf  
-
-# resharper  
-/_[Rr]e[Ss]harper.*  
-*.[Rr]e[Ss]harper.*  
-*.[Rr]e[Ss]harper  
-  
-# OS generated files  
-[Tt]humbs.db   
-[Dd]esktop.ini
-
-RaspberrySharp.System.userprefs
+examples/images
+/doc/UML
+*.puml
